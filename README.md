@@ -4,6 +4,9 @@
     <img src="https://img.shields.io/badge/iOS-15+-2980b9.svg" alt="iOS 15+" />
     <img src="https://img.shields.io/badge/swift-5.7+-F05138.svg" alt="Swift 5.7+" />
     <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="MIT License" />
+    <a href="https://agentskills.io/home">
+        <img src="https://img.shields.io/badge/Agent%20Skills-Compatible-purple.svg" alt="Agent Skills Compatible" />
+    </a>
 </p>
 
 An agent skill that helps AI coding agents like Claude Code, Codex, Cursor, and Gemini write modern Swift formatting code using `FormatStyle` and `.formatted()` APIs instead of legacy `Formatter` subclasses and C-style `String(format:)`.
