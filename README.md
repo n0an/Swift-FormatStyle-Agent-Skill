@@ -1,12 +1,18 @@
-<p align="center">
-    <img src="https://img.shields.io/badge/swift-5.7+-F05138.svg" alt="Designed for Swift 5.7 and later." />
-    <img src="https://img.shields.io/badge/iOS-15+-blue.svg" alt="iOS 15+" />
-    <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="MIT License" />
-</p>
-
 <h1 align="center">Swift FormatStyle Agent Skill</h1>
 
+<p align="center">
+    <img src="https://img.shields.io/badge/iOS-15+-2980b9.svg" alt="iOS 15+" />
+    <img src="https://img.shields.io/badge/swift-5.7+-F05138.svg" alt="Swift 5.7+" />
+    <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="MIT License" />
+    <a href="https://twitter.com/n0an_">
+        <img src="https://img.shields.io/badge/Contact-@n0an__-95a5a6.svg?style=flat" alt="Twitter: @n0an_" />
+    </a>
+</p>
+
 An agent skill that helps AI coding agents like Claude Code, Codex, Cursor, and Gemini write modern Swift formatting code using `FormatStyle` and `.formatted()` APIs instead of legacy `Formatter` subclasses and C-style `String(format:)`.
+
+It uses the [Agent Skills](https://agentskills.io/home) format, so it works smoothly with Claude Code, Codex, Gemini, Cursor, and more.
+
 
 ## What It Covers
 
@@ -36,6 +42,8 @@ If you get the error `npx: command not found`, it means you don't currently have
 ```bash
 brew install node
 ```
+
+And if *that* fails it usually means you need to [install Homebrew](https://brew.sh) first.
 
 When using `npx`, you can select exactly which agents you want to use during the installation. You can also select whether the skill should be installed just for one project, or whether it should be made available for all your projects.
 
@@ -81,4 +89,4 @@ Contributions are welcome - whether adding new checks, improving existing exampl
 
 ## License
 
-Available under the [MIT License](LICENSE).
+Available under the [MIT License](LICENSE), which permits commercial use, modification, distribution, and private use.
