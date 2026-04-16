@@ -1,0 +1,5 @@
+{
+  "name": "swift-format-style",
+  "version": "1.0.0",
+  "description": "Reviews and writes modern Swift FormatStyle code, replacing legacy Formatter subclasses with modern .formatted() APIs"
+}

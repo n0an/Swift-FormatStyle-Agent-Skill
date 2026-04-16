@@ -1,0 +1,8 @@
+{
+  "name": "swift-format-style",
+  "description": "Reviews and writes modern Swift FormatStyle code, replacing legacy Formatter subclasses with modern .formatted() APIs",
+  "version": "1.0.0",
+  "author": "Anton Novoselov",
+  "license": "MIT",
+  "repository": "https://github.com/n0an/Swift-FormatStyle-Agent-Skill"
+}
